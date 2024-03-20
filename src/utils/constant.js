@@ -1,0 +1,12 @@
+// export const DB_CONNECT="mongodb+srv://pathakrishabh620:QIHJ6pNnKWv8Mo9N@cluster0.rbtpypz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+export const DB_CONNECT="mongodb+srv://pathakrishabh620:QIHJ6pNnKWv8Mo9N@cluster0.rbtpypz.mongodb.net/todos?retryWrites=true&w=majority&appName=Cluster0"
+
+export const JWT_TOKEN_SECRET ="XVFVDSFASFERG";
+
+
+export const StatusCode={
+    SUCCESS:200,
+    VALIDATION_ERROR:201,
+    UNPROCESSABLE_ENTITY:202,
+    AUTH_ERROR:203,}
